@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Code Compiler</h1>
+
+    <!-- Code editor -->
+    <textarea id="codeEditor" rows="10" cols="50" placeholder="Write your code here..."></textarea>
+
+    <br>
+
+    <!-- Language selection -->
+    <select id="languageSelect">
+        <option value="0">Python</option>
+        <option value="4">JavaScript</option>
+        <option value="7">C</option>
+        <option value="77">C++</option>
+        <option value="8">Java</option>
+    </select>
+
+    <br><br>
+
+    <!-- Compile button -->
+    <button id="compileButton">Compile Code</button>
+
+    <br><br>
+
+    <!-- Output Console -->
+    <div id="outputConsole" style="border: 1px solid #ccc; padding: 10px; width: 60%; min-height: 100px; overflow: auto;">
+        <h3>Output Console:</h3>
+        <pre id="consoleOutput"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
